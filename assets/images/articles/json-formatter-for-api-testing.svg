@@ -1,0 +1,91 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">JSON formatter API testing illustration</title>
+  <desc id="desc">An original SVG showing a structured JSON payload, validation checks, and API flow cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="132" y1="54" x2="1046" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C45A2C"/>
+      <stop offset="1" stop-color="#0F7B72"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="246" y1="123" x2="951" y2="691" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6EC" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#F3F9F8" stop-opacity="0.86"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="232" y1="156" x2="795" y2="661" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172033"/>
+      <stop offset="1" stop-color="#24344A"/>
+    </linearGradient>
+    <filter id="shadow" x="110" y="66" width="992" height="714" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="20"/>
+      <feGaussianBlur stdDeviation="28"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.106 0 0 0 0 0.122 0 0 0 0 0.184 0 0 0 0.20 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="820" rx="44" fill="url(#bg)"/>
+  <circle cx="1037" cy="156" r="144" fill="#FFF4E3" fill-opacity="0.12"/>
+  <circle cx="192" cy="688" r="178" fill="#B9FFF8" fill-opacity="0.10"/>
+  <path d="M923 106C993.14 171.46 1013.43 269.18 969.1 344.26C924.78 419.33 823.36 452.26 738.63 426.78C653.9 401.29 605.43 323.53 618.38 240.69C631.33 157.84 702.86 96.01 790.56 90.17C844.29 86.6 894.32 96.14 923 106Z" fill="#FFE7D2" fill-opacity="0.12"/>
+
+  <g filter="url(#shadow)">
+    <rect x="168" y="102" width="864" height="618" rx="34" fill="url(#glass)"/>
+    <rect x="212" y="146" width="566" height="530" rx="28" fill="url(#panel)"/>
+    <rect x="808" y="146" width="180" height="162" rx="26" fill="#FFF8EF"/>
+    <rect x="808" y="330" width="180" height="154" rx="26" fill="#F4FBF9"/>
+    <rect x="808" y="506" width="180" height="170" rx="26" fill="#FFF7EE"/>
+  </g>
+
+  <rect x="242" y="184" width="154" height="34" rx="17" fill="#FFB78D" fill-opacity="0.18"/>
+  <text x="270" y="206" fill="#FFD8C1" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">REQUEST BODY</text>
+
+  <g fill="#D6E5FF" font-family="Courier New, monospace" font-size="24">
+    <text x="258" y="268">{</text>
+    <text x="286" y="304">"name": <tspan fill="#7FE1D5">"Starter Plan"</tspan>,</text>
+    <text x="286" y="348">"price": <tspan fill="#FFC38F">499</tspan>,</text>
+    <text x="286" y="392">"active": <tspan fill="#91E8A6">true</tspan>,</text>
+    <text x="286" y="436">"tags": [<tspan fill="#7FE1D5">"api"</tspan>, <tspan fill="#7FE1D5">"json"</tspan>],</text>
+    <text x="286" y="480">"shipping": {</text>
+    <text x="322" y="522">"enabled": <tspan fill="#91E8A6">true</tspan>,</text>
+    <text x="322" y="566">"region": <tspan fill="#7FE1D5">"IN"</tspan></text>
+    <text x="286" y="608">}</text>
+    <text x="258" y="644">}</text>
+  </g>
+
+  <path d="M688 224C722.11 224 749.78 251.67 749.78 285.78V594.22C749.78 628.33 722.11 656 688 656C653.89 656 626.22 628.33 626.22 594.22V285.78C626.22 251.67 653.89 224 688 224Z" fill="#11243A" fill-opacity="0.72"/>
+  <rect x="649" y="260" width="78" height="28" rx="14" fill="#1C7E75"/>
+  <text x="668" y="279" fill="#EAFBF9" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">VALID</text>
+  <circle cx="688" cy="366" r="42" fill="#DFF7EE"/>
+  <path d="M667 366L682 381L711 351" stroke="#0F7B72" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="646" y="440" width="84" height="12" rx="6" fill="#2E445D"/>
+  <rect x="646" y="466" width="68" height="12" rx="6" fill="#2E445D"/>
+  <rect x="646" y="492" width="92" height="12" rx="6" fill="#2E445D"/>
+  <rect x="646" y="518" width="56" height="12" rx="6" fill="#2E445D"/>
+
+  <text x="838" y="182" fill="#1A2230" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Formatter</text>
+  <rect x="836" y="206" width="124" height="14" rx="7" fill="#E7DED2"/>
+  <rect x="836" y="232" width="98" height="14" rx="7" fill="#E7DED2"/>
+  <rect x="836" y="258" width="110" height="14" rx="7" fill="#E7DED2"/>
+
+  <text x="838" y="366" fill="#1A2230" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Validate</text>
+  <circle cx="868" cy="430" r="24" fill="#DFF7EE"/>
+  <path d="M857 430L865 438L880 422" stroke="#0F7B72" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="904" y="420" width="56" height="12" rx="6" fill="#C5D7D4"/>
+  <rect x="904" y="444" width="42" height="12" rx="6" fill="#C5D7D4"/>
+
+  <text x="838" y="542" fill="#1A2230" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Send API</text>
+  <rect x="836" y="574" width="124" height="54" rx="18" fill="#1B2230"/>
+  <text x="861" y="607" fill="#FFF7EE" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">POST /v1</text>
+  <path d="M778 226L806 226" stroke="#FCE1CC" stroke-width="10" stroke-linecap="round"/>
+  <path d="M778 408L806 408" stroke="#D7EEE9" stroke-width="10" stroke-linecap="round"/>
+  <path d="M778 590L806 590" stroke="#FCE1CC" stroke-width="10" stroke-linecap="round"/>
+  <path d="M789 217L806 226L789 235" stroke="#FCE1CC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M789 399L806 408L789 417" stroke="#D7EEE9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M789 581L806 590L789 599" stroke="#FCE1CC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="218" y="754" fill="#FFF1E4" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">JSON Formatter for API Testing</text>
+  <text x="219" y="785" fill="#FBE3D3" font-family="Arial, Helvetica, sans-serif" font-size="18">Original illustration for Advanced Data Cleaner Suite articles</text>
+</svg>

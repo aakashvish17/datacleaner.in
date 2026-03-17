@@ -1,0 +1,75 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">URL cleaner illustration</title>
+  <desc id="desc">An original SVG showing messy tracking URLs being cleaned into simple destination links for SEO and reporting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="102" y1="68" x2="1078" y2="756" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C35B2F"/>
+      <stop offset="1" stop-color="#0D7A71"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="176" y1="128" x2="1002" y2="694" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7EE"/>
+      <stop offset="1" stop-color="#F4FAF8"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="238" y1="186" x2="955" y2="637" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172133"/>
+      <stop offset="1" stop-color="#273C57"/>
+    </linearGradient>
+    <filter id="shadow" x="118" y="82" width="964" height="664" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="22"/>
+      <feGaussianBlur stdDeviation="28"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.09 0 0 0 0 0.11 0 0 0 0 0.16 0 0 0 0.22 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="820" rx="44" fill="url(#bg)"/>
+  <circle cx="1004" cy="154" r="146" fill="#FFF1DE" fill-opacity="0.1"/>
+  <circle cx="180" cy="684" r="164" fill="#C6FFF7" fill-opacity="0.08"/>
+
+  <g filter="url(#shadow)">
+    <rect x="146" y="108" width="908" height="612" rx="36" fill="url(#panel)"/>
+    <rect x="212" y="170" width="776" height="486" rx="30" fill="url(#dark)"/>
+  </g>
+
+  <rect x="242" y="206" width="166" height="34" rx="17" fill="#FFB88E" fill-opacity="0.18"/>
+  <text x="270" y="228" fill="#FFDACA" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">URL CLEANUP FLOW</text>
+
+  <rect x="258" y="274" width="686" height="70" rx="18" fill="#22354B"/>
+  <rect x="258" y="374" width="686" height="70" rx="18" fill="#22354B"/>
+  <rect x="258" y="474" width="686" height="70" rx="18" fill="#22354B"/>
+
+  <text x="286" y="319" fill="#E2EAF8" font-family="Courier New, monospace" font-size="18">https://example.com/pricing?<tspan fill="#FFB287">utm_source</tspan>=mail&amp;<tspan fill="#FFB287">utm_medium</tspan>=email</text>
+  <text x="286" y="419" fill="#E2EAF8" font-family="Courier New, monospace" font-size="18">https://example.com/pricing?<tspan fill="#FFB287">fbclid</tspan>=abc123&amp;<tspan fill="#FFB287">ref</tspan>=social</text>
+  <text x="286" y="519" fill="#E2EAF8" font-family="Courier New, monospace" font-size="18">https://example.com/features?<tspan fill="#FFB287">utm_campaign</tspan>=q2_launch</text>
+
+  <rect x="724" y="286" width="184" height="46" rx="20" fill="#0E7B72"/>
+  <rect x="724" y="386" width="184" height="46" rx="20" fill="#0E7B72"/>
+  <rect x="724" y="486" width="184" height="46" rx="20" fill="#0E7B72"/>
+  <text x="760" y="316" fill="#ECFFFB" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">REMOVE NOISE</text>
+  <text x="760" y="416" fill="#ECFFFB" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">REMOVE NOISE</text>
+  <text x="760" y="516" fill="#ECFFFB" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">REMOVE NOISE</text>
+
+  <path d="M659 309L716 309" stroke="#D8F3EE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M659 409L716 409" stroke="#D8F3EE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M659 509L716 509" stroke="#D8F3EE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M703 300L716 309L703 318" stroke="#D8F3EE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M703 400L716 409L703 418" stroke="#D8F3EE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M703 500L716 509L703 518" stroke="#D8F3EE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="280" y="596" width="520" height="34" rx="17" fill="#1A7C74"/>
+  <text x="318" y="618" fill="#EBFFF9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">CLEAN DESTINATIONS FOR SEO REPORTS</text>
+
+  <rect x="830" y="584" width="114" height="58" rx="22" fill="#FFF8EF"/>
+  <text x="854" y="620" fill="#1F2938" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">READY</text>
+
+  <path d="M280 308H627" stroke="#4D6885" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M280 408H627" stroke="#4D6885" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M280 508H627" stroke="#4D6885" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <text x="154" y="756" fill="#FFF3E7" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">URL Cleaner for UTM Parameters and SEO Audits</text>
+  <text x="154" y="786" fill="#FEE7D7" font-family="Arial, Helvetica, sans-serif" font-size="18">Original illustration for Advanced Data Cleaner Suite articles</text>
+</svg>

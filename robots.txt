@@ -1,0 +1,6 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://aakashvish17.github.io/tool2advance/sitemap.xml
+
+
