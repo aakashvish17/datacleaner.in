@@ -33,5 +33,8 @@ Notes:
 ### Pages
 - Static pages: `about/`, `contact/`, `privacy-policy/`, `terms/`, `disclaimer/`, `dmca/`.
 
+### Website
+- website https://datacleaner.in
+
 ## Publish
 Commit + push to GitHub. GitHub Pages will update automatically.
